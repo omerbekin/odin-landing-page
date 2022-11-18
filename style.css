@@ -1,9 +1,19 @@
+.hero-container {
+    background-color: #1F2937;
+    padding-bottom: 170px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
+}
+
+#header-main-text {
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 ul {
@@ -19,9 +29,25 @@ ul {
     justify-content: space-around;
 }
 
-.text-container {
+.hero-text {
     display: flex;
     flex-direction: column;
+}
+
+.hero-text #hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.hero-text #hero-secondary-text  {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-link-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 button {
@@ -30,6 +56,6 @@ button {
 }
 
 .main-image {
-    width: 350px;
+    width: 500px;
     height: auto;
 }
