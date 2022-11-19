@@ -51,9 +51,12 @@ ul {
 }
 
 button {
-    width: 100px;
-    height: 35px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 130px;
+    height: 45px;
     border-radius: 10px;
+    font-size: 16px;
 }
 
 .main-image {
@@ -120,4 +123,18 @@ button {
 }
 
 
+.call-to-action-container {
+    background-color: #3882f6;
+    margin: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 15px;
+}
 
+.call-to-action-container button {
+    color: #f9faf8;
+    border-color: #f9faf8;
+}
