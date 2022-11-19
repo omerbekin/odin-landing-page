@@ -72,7 +72,8 @@ button {
 
 .info-header-text {
     font-weight: bold;
-
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .projects {
@@ -91,3 +92,32 @@ button {
     width: auto;
     border-radius: 25px;
 }
+
+.project-name {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-owner {
+    text-align: end;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
