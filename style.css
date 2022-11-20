@@ -157,3 +157,11 @@ button {
     align-self: center;
     border-width: 3px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 50px;
+    font-size: 26px;
+}
